@@ -69,6 +69,9 @@ module.exports = {
   appWebpackCache: resolveApp('node_modules/.cache'),
   appTsBuildInfoFile: resolveApp('node_modules/.cache/tsconfig.tsbuildinfo'),
   swSrc: resolveModule(resolveApp, 'src/service-worker'),
+  appComponenet:resolveApp('src/components'),
+  appPage:resolveApp('src/pages'),
+  appStyle:resolveApp('src/styles'),
   publicUrlOrPath,
 };
 

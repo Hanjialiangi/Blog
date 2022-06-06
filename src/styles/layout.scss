@@ -1,0 +1,31 @@
+#components-layout-demo-top-side .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .ant-row-rtl #components-layout-demo-top-side .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  .ant-layout-header {
+    background:#f0f2f5;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  .ant-menu {
+    background:#f0f2f5;
+  }
+  .ant-layout-header .ant-menu{
+    width:20%;
+  }
+  .title{
+    margin: 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    float:right;
+  }
